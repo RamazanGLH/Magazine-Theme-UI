@@ -1,0 +1,513 @@
+html, 
+body {
+    font-family: inter;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1764px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: #000;
+}
+
+.main__posts {
+    margin-top: 98px;
+}
+.main__popular {
+    margin: 113px 0 141px;
+}
+
+.main__interview {
+    padding: 51px 0 46px;
+}
+.main__stuff {
+    margin: 145px 0 124px;
+}
+
+/* description__box start */
+
+.description__date {
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 1.1px;
+    display: flex;
+    align-items: center;
+}
+.description__slash {
+    display: block;
+    margin: 0 5.8px;
+}
+.description__slash-main {
+    margin: 0 9.8px 0 5.8px;
+}
+.description__item-main {
+    padding: 5px 7px;
+    border: 1px solid #000;
+    border-radius: 13px;
+    display: block;
+}
+.description__item {
+    padding: 5px 7px;
+    border: 1px solid #000;
+    border-radius: 13px;
+    display: block;
+    margin-left: 7px;
+}
+.description__title {
+    border-bottom: 1px solid #000;
+}
+
+/* description__box end */
+
+/* section__top start */
+
+.section__top-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: -0.36px;
+}
+.section__top-item {
+    display: flex;
+}
+.section__top-text {
+    margin-left: 8px;
+}
+.section__top-btn {
+    position: relative;
+}
+.section__top-btn::before {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    transition: all .3s ease;
+}
+.section__top-btn:hover::before {
+    background-color: #000;
+}
+
+/* section__top end */
+
+
+/* ============================================================================== */
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33.5px 0 34.5px;
+}
+.header__logo-box {
+}
+.header__nav-list {
+    display: flex;
+}
+.header__nav-item {
+    margin-right: 35px;
+    position: relative;
+}
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+.header__nav-item::before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: transparent;
+    transition: all .3s ease;
+}
+.header__nav-item:hover::before {
+    background-color: #000;
+}
+.header__nav-link {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    display: block;
+}
+.header__info-item {
+    position: relative;
+    margin-right: 31.4px;
+    font-size: 19px;
+    line-height: 25px;
+}
+.header__info-item::before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 143%;
+    margin-right: 31.4px;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48.6px;
+    margin-bottom: 34px;
+}
+.header__content {
+}
+.header-description__date {
+    margin-bottom: 15px;
+}
+.header__content-text {
+    max-width: 478px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.44px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+.header-description__title {
+    font-size: 77px;
+    max-width: 633.8px;
+    line-height: 85px;
+    margin-bottom: 291px;
+}
+.header__image-box {
+}
+.header__img {
+}
+
+/* ===================================== POSTS ====================================== */
+/* ===================================== POSTS ====================================== */
+
+.posts__top {
+    margin-bottom: 35px;
+}
+.posts__body {
+}
+.posts__body-top {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 39px;
+}
+.posts__filter-text {
+    margin-right: 9.8px;
+}
+.posts__filter-box {
+    display: flex;
+}
+.posts__filter-item {
+    padding: 4px 7px;
+    border: 1px solid #000;
+    border-radius: 13px;
+    margin-right: 9px;
+}
+.posts__filter-item:last-child {
+    margin-right: 0;
+}
+.posts__filter-item--active {
+    background-color: #000;
+    color: #fff;
+}
+.posts__filter-btn {
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+.posts__show-default {
+    margin-left: auto;
+    display: flex;
+}
+.posts__show-default span {
+    display: block;
+    margin-left: 4.7px;
+    position: relative;
+}
+.posts__show-default span::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+}
+.posts__show-default-img {
+    margin-left: 11px;
+}
+.posts__body-content {
+    margin-bottom: 122px;
+}
+.posts__list {
+    display: flex;
+    justify-content: space-between;
+}
+.posts__item {
+}
+.posts__link {
+}
+.posts__first-wrapper {   
+    max-width: 846.7px;
+}
+.posts__first-wrapper li {   
+    margin-bottom: 81px;
+}
+.posts__first-wrapper li:last-child {   
+    margin-bottom: 0;
+}
+.posts__second-wrapper {
+    max-width: 403.3px;
+}
+.posts__second-wrapper li,
+.posts__third-wrapper li {
+    margin-bottom: 65px;
+}
+.posts__second-wrapper li:last-child,
+.posts__third-wrapper li:last-child {
+    margin-bottom: 0;
+}
+.posts__third-wrapper {
+    max-width: 403px;
+}
+.posts__body-img {
+    margin-bottom: 24px;
+    display: block;
+}
+.posts-description__date {
+    margin-bottom: 12px;
+}
+.posts-description__title-left {
+    font-size: 37px;
+    line-height: 45px;
+}
+
+.posts-description__title {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* ===================================== POPULAR ====================================== */
+/* ===================================== POPULAR ====================================== */
+
+.popular__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+.section__top-item {
+}
+.section__top-item--left {
+    margin-right: 286.5px;
+}
+.section__top-text {
+}
+
+.popular__body {
+    display: flex;
+}
+.popular__left-box {
+    display: flex;
+}
+.popular__item {
+    margin-right: 39.7px;
+}
+.popular__item:last-child {
+    margin-right: 0;
+}
+.popular__link {
+}
+.popular__body-img {
+    margin-bottom: 24px;
+    display: block;
+}
+.posts-description__date {
+}
+.popular-description__title-one { 
+    font-size: 37px;
+    line-height: 45px;
+    max-width: 544.8px;
+}
+.popular-description__title-two {
+    font-size: 37px;
+    line-height: 45px;
+    max-width: 558px;
+}
+.popular__right-box {
+    max-width: 237px;
+    margin-right: 157.7px;
+    margin-left: 38.8px;
+}
+.popular__right-item {
+    margin-bottom: 31px;
+}
+.popular__right-item:last-child {
+    margin-bottom: 0;
+}
+.popular__right-link {
+}
+.popular__right-btn {
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 1.1px;
+    padding: 4px 7px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.popular__right-text {
+    font-size: 24px;
+    line-height: 32px;
+    border-bottom: 1px solid #000;
+}
+
+/* ===================================== INTERVIEW ====================================== */
+/* ===================================== INTERVIEW ====================================== */
+
+.interview {
+    background: url(../img/interview-bg.jpg) 0 0 no-repeat;
+}
+
+.interview-description__title {
+    font-size: 77px;
+    line-height: 85px;
+    max-width: 516.8px;
+    margin-bottom: 351px;
+}
+
+.interview__content-text {
+    max-width: 601px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.44px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+/* ===================================== STUFF ====================================== */
+/* ===================================== STUFF ====================================== */
+
+.stuff__top {
+    margin-bottom: 37px;
+}
+.stuff__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.stuff__list-item {
+    max-width: 221px;
+}
+.stuff__list-link {
+}
+.stuff__img {
+    margin-bottom: 23px;
+}
+.stuff__element {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 1.1px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 4px 7px;
+    margin-bottom: 17px;
+}
+.stuff__text {
+    font-size: 19px;
+    line-height: 25px;
+    border-bottom: 1px solid #000;
+}
+
+/* ===================================== INSCRIPTION ====================================== */
+
+.inscription__text {
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -0.36px;
+    text-align: center;
+    margin: 31px 0 32px;
+}
+
+
+/* ===================================== FOOTER ====================================== */
+/* ===================================== FOOTER ====================================== */
+
+.footer {
+    margin: 180px 0 47px;
+}
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer__nav-item {
+    margin-right: 35.6px;
+}
+.footer__nav-item::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: transparent;
+    transform: translateY(22px);
+    transition: all .3s ease;
+}
+.footer__nav-item:hover::before {
+    background-color: #000;
+}
+.footer__nav-item:last-child {
+    margin-right: 0;
+}
+.footer__nav-link {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+}
+
+.horizontal-line-small {
+    width: 520px;
+    height: 1px;
+    background-color: #000;
+    margin: 0 auto 28px;
+}
+
+.footer__socials-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 53px;
+}
+.footer__socials-item {
+    margin-right: 39.5px;
+}
+.footer__socials-item:last-child {
+    margin-right: 0;
+}
+.footer__socials-link {
+    display: block;
+}
+
+.footer__copyright {
+    display: block; 
+    width: 213px;
+    margin: 0 auto;
+}
